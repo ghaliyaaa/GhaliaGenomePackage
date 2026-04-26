@@ -1,0 +1,5 @@
+Package: GhaliyaGenomePackage
+Type: Package
+Title: Genome Analysis Package
+Author: Ghaliya Alkamali
+Description: Simple Genome class and method.
