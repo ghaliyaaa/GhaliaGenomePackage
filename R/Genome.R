@@ -10,6 +10,3 @@ setMethod("avgProteinPerCh", "Genome",function(object){
     avg= object@num_proteins/object@num_chromosomes
     return(round(avg))
   })
-library(GhaliyaGenomePackage)
-gen1=new("Genome", genome_name= "Human", num_chromosomes= 23, num_proteins= 20000)
-avgProteinPerCh(gen1)
